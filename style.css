@@ -2,9 +2,9 @@
 :root {
   --white-background: hsl(0, 0%, 100%);
   --rose-background: hsl(330, 100%, 98%);
-  --eggshell-divider: hsl(30, 54%, 90%);
+  --eggshell-background: hsl(30, 54%, 90%);
   --light-grey-divider: hsl(30, 18%, 87%);
-  --brown-text: hsl(30, 10%, 34%);
+  --brown-text-primary: hsl(30, 10%, 34%);
   --dark-charcoal-text: hsl(24, 5%, 18%);
   --dark-pink-subhead: hsl(332, 51%, 32%);
   --nutmeg-subhead: hsl(14, 45%, 36%);
@@ -17,7 +17,163 @@
 ::after {
   box-sizing: border-box;
 }
-/* font family css classes */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: var(--font-family-body);
+}
+
+/* layout styling  */
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.nutrition-flexbox {
+  margin-bottom: 4rem;
+}
+
+.col-1 {
+  color: var(--brown-text-primary);
+}
+
+.col-2 {
+  width: 45%;
+  text-align: left;
+  font-weight: bold;
+  color: var(--nutmeg-subhead);
+}
+
+/* text styling */
+
+.h1-style,
+.h2-style {
+  font-family: var(--font-family-headings);
+}
+
+.h1-style {
+  font-size: 2.3rem;
+  padding-top: 1rem;
+  color: hsl(24, 5%, 18%);
+  text-align: left;
+  line-height: 2.5rem;
+}
+
+.h2-style {
+  font-size: 1.85rem;
+  color: var(--nutmeg-subhead);
+}
+
+.h3-style {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 1.5rem 0 0 2rem;
+  color: var(--dark-pink-subhead);
+  /* border: blue 1px solid; */
+}
+
+.text-style {
+  line-height: 1.5rem;
+  color: var(--brown-text-primary);
+  padding-bottom: 1.5rem;
+}
+
+.list-style-prep {
+  /* border: green 1px solid; */
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0.75rem;
+}
+
+.list-style {
+  padding-bottom: 0.25rem;
+}
+
+li {
+  padding: 0 1.5rem 0.25rem 1.25rem;
+  line-height: 1.75rem;
+}
+
+/* changes the color of the numbers for only ol's li */
+ol li::marker {
+  font-weight: bold;
+  color: var(--nutmeg-subhead);
+}
+
+/* have omelette img span entire vp width */
+.header-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.color-background {
+  background-color: var(--rose-background);
+  border-radius: 10px;
+}
+
+hr {
+  width: 85%;
+  height: 1px;
+  border-top: var(--light-grey-divider) 0.5px solid;
+}
+
+/* attribution design */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* DESKTOP Styles*/
+
+@media (min-width: 700px) {
+  body {
+    background-color: var(--eggshell-background);
+    margin-top: 8rem;
+  }
+
+  .desktop-white-background {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .header-img {
+    display: block;
+    width: 85%;
+    margin: auto auto;
+    /* padding-top: 3rem; */
+    border-radius: 20px;
+  }
+
+  .attribution {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* /font family css classes 
 .young-serif-regular {
   font-family: 'Young Serif', serif;
   font-weight: 400;
@@ -29,35 +185,4 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Outfit', serif;
-}
-
-.h1-style,
-.h2-style {
-  font-family: 'Young Serif', serif;
-}
-
-.h1-style {
-  color: hsl(24, 5%, 18%);
-}
-
-/* have omelette img span entire vp width */
-.header-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* attribution design */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+} */

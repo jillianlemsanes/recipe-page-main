@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,25 +12,17 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
+This is a simple HTML and CSS Responsive webpage. I used a mobile first approach, and tweaked the design slightly for the desktop version. I used limited resources on this project, although StackOverFlow and Chat GPT helped me out on a few spots where my memory failed me. This project was a great review for HTML and CSS. I even got to learn a few new things which was great!
+
 ### Screenshot
 
-![](./screenshot.jpg)
+Here is a screenshot of the webpage at the desktop screen size.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./recipe-webpage-screenshot.png)
 
 ### Links
 
@@ -39,66 +31,42 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I first look over the mobile and desktop designs to get a feel of how to style the page.
+
+Once I figure out what kind of styling I need (will I need flexbox/grid? How should the mobile look compared to desktop version-will I need to convert to flexbox? What elements on the page will have the same styling, what aspects need to be styled uniquely? etc.), I can determine how to structure my HTML so that I am able to set up classes, IDs, and HTML elements properly.
+
+I like to start from the top of the page and work down, working mobile to desktop. Desktop tends to fit together nicely, or need less changes, once the mobile version is set up well.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I used this project as more of a review to refresh my knowledge of HTML and CSS. I have been working on JavaScript for a while now and had not been typing up any HTML or CSS. I was really in need of a refresher, which this project was excellent for basic layout and styling.
 
-To see how you can add code snippets, see below:
+There were a few things I learned about!
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- CSS ::marker which selects the bullet or number in a list-item. This is what I used to change the color of the numbered list.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- CSS variables which I had heard about before, but never used myself. I went ahead and tried them on this project using variables for font family and colors. Super simple to use and very handy!
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- <hr/> which gives you a divider on the page, which you can then style in CSS. I used this to divide different sections on the webpage.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- I still have some things to learn about HTML tags like how to use the tags to help the website's SEO, so this is something I would like to learn more about, although I did not use it in this particular project.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- I would also like to learn more about accessibility on the web and how I can implement that into my websites, as right now my knowledge is very limited.
 
-### Useful resources
+- I would like to continue practicing CSS with a lot of different projects. I need more practice on grid, as I have not used it in a project.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- I am going to take this simple HTML and CSS recipe page and add on to it for more of a challenge. I will add more complex CSS and some JavaScript to it as well.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@jillianlemsanes](https://www.frontendmentor.io/profile/jillianlemsanes)
+- Twitter - [@Jlemsanes](https://www.twitter.com/Jlemsanes)
